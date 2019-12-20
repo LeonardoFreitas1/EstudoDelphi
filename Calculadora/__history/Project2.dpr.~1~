@@ -1,0 +1,14 @@
+program Project2;
+
+uses
+  Vcl.Forms,
+  Calculadora in 'Calculadora.pas' {Calculator};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TCalculator, Calculator);
+  Application.Run;
+end.
