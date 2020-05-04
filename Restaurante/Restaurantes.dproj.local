@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2020/03/14 22:25:04.488,=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/03/14 22:25:52.492,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Restaurante\untPrincipal.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/03/14 22:25:52.492,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Restaurante\untPrincipal.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2020/03/14 22:26:26.025,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Restaurante\Restaurantes.dproj=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2020/03/14 22:25:04.000.488,=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/14 22:25:52.000.492,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Restaurante\untPrincipal.pas</Transaction>
+    <Transaction>2020/03/14 22:25:52.000.492,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Restaurante\untPrincipal.dfm</Transaction>
+    <Transaction>2020/03/14 22:26:26.000.025,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Restaurante\Restaurantes.dproj</Transaction>
   </Transactions>
 </BorlandProject>
