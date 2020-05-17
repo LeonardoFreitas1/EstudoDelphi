@@ -1,0 +1,43 @@
+unit Form.Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.Buttons, Vcl.ExtCtrls,
+  Vcl.Imaging.jpeg;
+
+type
+  TFmPrincipal = class(TForm)
+    MainMenu1: TMainMenu;
+    Cadastros1: TMenuItem;
+    Usuario1: TMenuItem;
+    Livro1: TMenuItem;
+    Movimento1: TMenuItem;
+    Locaes1: TMenuItem;
+    SobreoSistema1: TMenuItem;
+    Sair1: TMenuItem;
+    Informaes1: TMenuItem;
+    Relatorios1: TMenuItem;
+    Panel1: TPanel;
+    BTUsuario: TSpeedButton;
+    BTLivros: TSpeedButton;
+    BTSair: TSpeedButton;
+    BTLocacoes: TSpeedButton;
+    Image1: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FmPrincipal: TFmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses Form.Login;
+
+end.

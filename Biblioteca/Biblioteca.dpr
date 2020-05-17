@@ -2,15 +2,23 @@ program Biblioteca;
 
 uses
   Vcl.Forms,
-  Principal in 'Principal.pas' {Form1},
-  uUsuarios in 'Forms\uUsuarios.pas' {fmUsuarios};
+  Form.Principal in 'Form.Principal.pas' {Form1},
+  Form.Cadastro.Usuarios in 'Forms\Form.Cadastro.Usuarios.pas' {fmUsuarios},
+  Classe.Usuario in 'Classes\Classe.Usuario.pas',
+  Form.Login in 'Forms\Form.Login.pas' {FormLogin};
 
 {$R *.res}
-
+var
+  F: TFmLogin;
 begin
+  F := TFmLogin.Create(Application);
+  try
+  if F.ShowModal = F.Button2.ModalResult then begin
   Application.Initialize;
-  Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
-  Application.CreateForm(TfmUsuarios, fmUsuarios);
+  Application.CreateForm(TFmPrincipal, FmPrincipal);
   Application.Run;
+  end;
+  finally
+  F.Free;
+  end;
 end.

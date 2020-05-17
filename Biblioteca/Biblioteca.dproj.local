@@ -2,11 +2,25 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2020/05/03 18:52:59.000.619,=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/05/03 18:56:14.000.030,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Principal.dfm</Transaction>
-    <Transaction>2020/05/03 18:56:14.000.030,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Principal.pas</Transaction>
-    <Transaction>2020/05/03 18:56:28.000.815,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Biblioteca.dproj</Transaction>
-    <Transaction>2020/05/03 19:45:27.287,=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.pas</Transaction>
-    <Transaction>2020/05/03 19:45:45.900,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\uUsuarios.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.dfm</Transaction>
-    <Transaction>2020/05/03 19:45:45.900,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\uUsuarios.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.pas</Transaction>
+    <Transaction>2020/05/03 18:56:14.000.030,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Principal.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/05/03 18:56:14.000.030,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Principal.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/05/03 18:56:28.000.815,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Biblioteca.dproj=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/05/03 19:45:27.000.287,=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.pas</Transaction>
+    <Transaction>2020/05/03 19:45:45.000.900,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\uUsuarios.pas</Transaction>
+    <Transaction>2020/05/03 19:45:45.000.900,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\uUsuarios.dfm</Transaction>
+    <Transaction>2020/05/17 05:37:02.000.831,=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit1.pas</Transaction>
+    <Transaction>2020/05/17 11:52:45.000.601,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Classes\Classe.Usuario.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit1.pas</Transaction>
+    <Transaction>2020/05/17 11:53:44.000.527,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\uCadastroUsuarios.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\uUsuarios.dfm</Transaction>
+    <Transaction>2020/05/17 11:53:44.000.527,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\uCadastroUsuarios.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\uUsuarios.pas</Transaction>
+    <Transaction>2020/05/17 13:02:01.000.546,=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.pas</Transaction>
+    <Transaction>2020/05/17 13:37:52.000.770,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\Form.Login.dfm</Transaction>
+    <Transaction>2020/05/17 13:37:52.000.770,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\Form.Login.pas</Transaction>
+    <Transaction>2020/05/17 13:59:17.000.083,=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.pas</Transaction>
+    <Transaction>2020/05/17 13:59:27.000.971,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\teste.dfm</Transaction>
+    <Transaction>2020/05/17 13:59:27.000.971,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Unit2.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\teste.pas</Transaction>
+    <Transaction>2020/05/17 15:48:40.000.509,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\Form.Cadastro.Usuarios.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\uCadastroUsuarios.dfm</Transaction>
+    <Transaction>2020/05/17 15:48:40.000.509,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\Form.Cadastro.Usuarios.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Forms\uCadastroUsuarios.pas</Transaction>
+    <Transaction>2020/05/17 15:49:03.000.539,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Form.Principal.pas=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Principal.pas</Transaction>
+    <Transaction>2020/05/17 15:49:03.000.539,C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Form.Principal.dfm=C:\Users\leo_p\Documents\Embarcadero\Studio\Projects\Biblioteca\Principal.dfm</Transaction>
   </Transactions>
 </BorlandProject>
