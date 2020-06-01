@@ -1,0 +1,50 @@
+unit Classe.Controller.Usuario;
+
+interface
+uses
+  Classe.Conexao, System.SysUtils;
+
+  type
+    TControllerUsuario = class
+      private
+        class var FInstance: TControllerUsuario;
+        FConexao: TConexao;
+
+      class var TInstance: TConexao;
+
+      public
+      constructor Create;
+      destructor Destroy; override;
+
+      class function GetInstance: TControllerUsuario;
+      property Conexao: TConexao read  FConexao write FConexao;
+    end;
+implementation
+
+{ TControllerUsuario }
+
+
+
+constructor TControllerUsuario.Create;
+begin
+  FConexao := TConexao.Create;
+
+end;
+
+destructor TControllerUsuario.Destroy;
+begin
+   FreeAndNil(FConexao);
+  inherited;
+end;
+
+function TControllerUsuario.GetInstance: TControllerUsuario;
+begin
+  if not Assigned(Self.FInstance) then
+  begin
+    Self.FInstance := TControllerUsuario.Create();
+  end;
+
+  Result := Self.FInstance;
+end;
+
+end.

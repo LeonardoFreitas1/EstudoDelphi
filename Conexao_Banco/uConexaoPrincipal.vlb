@@ -1,25 +1,37 @@
 ﻿[TxtPermissao]
-Coordinates=70,210,93,58
+Coordinates=70,210,81,51
 
 [TxtNome]
-Coordinates=80,30,66,58
+Coordinates=80,30,58,51
 
 [TxtIdade]
-Coordinates=90,120,65,58
+Coordinates=90,120,56,51
 
 [FDConnection1]
-Coordinates=60,78,104,36
+Coordinates=60,78,90,33
 
 []
-Coordinates=169,78,91,36
+Coordinates=0,0,47,51
 
 [BindSourceUsuario]
-Coordinates=370,40,125,168
+Coordinates=370,40,110,141
 
 [FDTableUsuario]
-Coordinates=95,87,108,36
+Coordinates=95,87,93,33
 Visible=False
 
 [BindingsList1]
-Coordinates=198,87,91,36
+Coordinates=198,87,82,33
+
+[BindNavigator1]
+Coordinates=610,20,90,51
+
+[Label1]
+Coordinates=0,0,46,51
+
+[Label2]
+Coordinates=31,70,46,51
+
+[Label3]
+Coordinates=184,1,46,51
 

@@ -1,0 +1,32 @@
+unit Classe.Controller.Usuario;
+
+interface
+uses
+  Classe.Conexao;
+
+  type
+    TControllerUsuario = class
+      private var FInstance: TControllerUsuario;
+
+      class var TInstance: TConexao;
+
+      public
+        function GetInstance: TControllerUsuario;
+    end;
+implementation
+
+{ TControllerUsuario }
+
+
+
+function TControllerUsuario.GetInstance: TControllerUsuario;
+begin
+  if not Assigned(Self.FInstance) then
+  begin
+    Self.FInstance := TControllerUsuario.Create();
+  end;
+
+  Result := Self.FInstance;
+end;
+
+end.

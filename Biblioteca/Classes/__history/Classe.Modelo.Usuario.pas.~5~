@@ -1,0 +1,75 @@
+unit Classe.Modelo.Usuario;
+
+interface
+
+type
+  TModelUsuario = class
+  private
+    Fnome_usuario: String;
+    Fcpf: String;
+    Fsenha: String;
+    Fusername: String;
+    Ftelefone: String;
+    Fid_usuario: Integer;
+    Fid_tipo: Integer;
+
+    procedure Setcpf(const Value: String);
+    procedure Setid_tipo(const Value: Integer);
+    procedure Setid_usuario(const Value: Integer);
+    procedure Setnome_usuario(const Value: String);
+    procedure Setsenha(const Value: String);
+    procedure Settelefone(const Value: String);
+    procedure Setusername(const Value: String);
+
+  public
+    constructor Create(AIdusuario: Integer);
+
+    property id_usuario: Integer read Fid_usuario write Setid_usuario;
+    property nome_usuario: String read Fnome_usuario write Setnome_usuario;
+    property cpf: String read Fcpf write Setcpf;
+    property senha: String read Fsenha write Setsenha;
+    property telefone: String read Ftelefone write Settelefone;
+    property id_tipo: Integer read Fid_tipo write Setid_tipo;
+    property username: String read Fusername write Setusername;
+
+  end;
+implementation
+
+{ TModelUsuario }
+
+procedure TModelUsuario.Setcpf(const Value: String);
+begin
+  Fcpf := Value;
+end;
+
+procedure TModelUsuario.Setid_tipo(const Value: Integer);
+begin
+  Fid_tipo := Value;
+end;
+
+procedure TModelUsuario.Setid_usuario(const Value: Integer);
+begin
+  Fid_usuario := Value;
+end;
+
+procedure TModelUsuario.Setnome_usuario(const Value: String);
+begin
+  Fnome_usuario := Value;
+end;
+
+procedure TModelUsuario.Setsenha(const Value: String);
+begin
+  Fsenha := Value;
+end;
+
+procedure TModelUsuario.Settelefone(const Value: String);
+begin
+  Ftelefone := Value;
+end;
+
+procedure TModelUsuario.Setusername(const Value: String);
+begin
+  Fusername := Value;
+end;
+
+end.

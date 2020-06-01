@@ -1,0 +1,13 @@
+unit Classe.Controller.Usuario;
+
+interface
+  type
+    TControllerUsuario = class
+      private var FInstance: TControllerUsuario;
+
+      public
+        function GetInstance: TControllerUsuario;
+    end;
+implementation
+
+end.

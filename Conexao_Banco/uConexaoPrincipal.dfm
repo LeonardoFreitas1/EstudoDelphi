@@ -13,6 +13,27 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 75
+    Width = 31
+    Height = 13
+    Caption = 'Nome:'
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 118
+    Width = 28
+    Height = 13
+    Caption = 'Idade'
+  end
+  object Label3: TLabel
+    Left = 22
+    Top = 163
+    Width = 52
+    Height = 13
+    Caption = 'Permissao:'
+  end
   object TxtNome: TEdit
     Left = 80
     Top = 72
@@ -33,6 +54,15 @@ object Form1: TForm1
     Width = 233
     Height = 21
     TabOrder = 2
+  end
+  object BindNavigator1: TBindNavigator
+    Left = 88
+    Top = 304
+    Width = 220
+    Height = 25
+    DataSource = BindSourceUsuario
+    Orientation = orHorizontal
+    TabOrder = 3
   end
   object FDConnection1: TFDConnection
     Params.Strings = (

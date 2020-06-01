@@ -1,0 +1,20 @@
+unit Classe.Modelo.Usuario;
+
+interface
+
+type
+  TModelUsuario = class
+
+  public
+    property id_usuario: Integer;
+    property nome_usuario: String;
+    property cpf: String;
+    property senha: String;
+    property telefone: String;
+    property id_tipo: Integer;
+    property username: String;
+
+  end;
+implementation
+
+end.

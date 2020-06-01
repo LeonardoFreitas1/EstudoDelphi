@@ -5,7 +5,10 @@ uses
   Form.Principal in 'Form.Principal.pas' {Form1},
   Form.Cadastro.Usuarios in 'Forms\Form.Cadastro.Usuarios.pas' {fmUsuarios},
   Classe.Usuario in 'Classes\Classe.Usuario.pas',
-  Form.Login in 'Forms\Form.Login.pas' {FormLogin};
+  Form.Login in 'Forms\Form.Login.pas' {FormLogin},
+  Classe.Conexao in 'Classes\Classe.Conexao.pas',
+  Classe.Modelo.Usuario in 'Classes\Classe.Modelo.Usuario.pas',
+  Classe.Controller.Sistema in 'Classes\Classe.Controller.Sistema.pas';
 
 {$R *.res}
 var

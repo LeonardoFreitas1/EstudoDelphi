@@ -11,7 +11,8 @@ uses
   FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
   System.Rtti, System.Bindings.Outputs, Vcl.Bind.Editors, Data.Bind.EngExt,
   Vcl.Bind.DBEngExt, Data.Bind.Components, FireDAC.Comp.DataSet,
-  Data.Bind.DBScope, Vcl.StdCtrls;
+  Data.Bind.DBScope, Vcl.StdCtrls, Data.Bind.Controls, Vcl.ExtCtrls,
+  Vcl.Buttons, Vcl.Bind.Navigator;
 
 type
   TForm1 = class(TForm)
@@ -25,6 +26,10 @@ type
     LinkControlToField1: TLinkControlToField;
     LinkControlToField2: TLinkControlToField;
     LinkControlToField3: TLinkControlToField;
+    BindNavigator1: TBindNavigator;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
   private
     { Private declarations }
   public
